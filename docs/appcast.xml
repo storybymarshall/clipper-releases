@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Clipper</title>
     <link>https://storybymarshall.github.io/clipper-releases/appcast.xml</link>
     <description>Clipper updates</description>
     <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <pubDate>Sun, 25 Oct 2026 06:04:18 GMT</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;The first release of Clipper: everything you copy, for ten days.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Every copy is kept in a list you can copy from again, with where it came from and when. Click the clipboard in the menu bar, or press ⇧⌘V anywhere.&lt;/li&gt;&lt;li&gt;Text, links, code, colors, images and files, in the same themes as Tracker.&lt;/li&gt;&lt;li&gt;Clips are archived after a day and deleted after ten. Pin the ones you want to keep.&lt;/li&gt;&lt;li&gt;Passwords are never recorded, and everything stays on your Mac.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/storybymarshall/clipper-releases/releases/download/v1.0/Clipper.zip" sparkle:edSignature="Lm0zyzU0lMC9EjNGoxbOVcC4ePNfz+UlaYx0dhmXCpfo8HRL3stuw741flgOd3p0uGx3Y7IEM72qhaAWxvwABw==" length="1913000" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
