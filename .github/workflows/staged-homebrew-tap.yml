@@ -1,0 +1,22 @@
+name: Staged Clipper Homebrew tap
+
+on:
+  pull_request:
+    paths:
+      - "homebrew-tap/**"
+      - ".github/workflows/staged-homebrew-tap.yml"
+  push:
+    branches: [main]
+    paths:
+      - "homebrew-tap/**"
+      - ".github/workflows/staged-homebrew-tap.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Ruby
+        run: sudo apt-get update && sudo apt-get install -y ruby
+      - name: Validate staged Clipper cask
+        run: python3 homebrew-tap/script/validate_cask.py
